@@ -1043,6 +1043,7 @@ export default class BattleScene extends SceneBase {
     }
 
     switch (species.speciesId) {
+    case Species.PICHU:
     case Species.UNOWN:
     case Species.SHELLOS:
     case Species.GASTRODON:
