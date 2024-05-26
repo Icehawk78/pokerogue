@@ -544,7 +544,7 @@ export default class PokemonSpecies extends PokemonSpeciesForm implements Locali
     catchRate: integer, baseFriendship: integer, baseExp: integer, growthRate: GrowthRate, malePercent: number,
     genderDiffs: boolean, canChangeForm?: boolean, ...forms: PokemonForm[]) {
     super(type1, type2, height, weight, ability1, ability2, abilityHidden, baseTotal, baseHp, baseAtk, baseDef, baseSpatk, baseSpdef, baseSpd,
-      catchRate, baseFriendship, baseExp, genderDiffs);
+      catchRate, baseFriendship, baseExp, genderDiffs, true);
     this.speciesId = id;
     this.formIndex = 0;
     this.generation = generation;
